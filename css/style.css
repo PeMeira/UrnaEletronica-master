@@ -14,7 +14,8 @@ body {
 .tela {
     width: 500px;
     height: 320px;
-    background: linear-gradient(to right, #e8e8e8, #c1c1c1); 
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+    border: 2px solid #555; 
 }
 
 .teclado {
@@ -25,6 +26,7 @@ body {
 .teclado--linha {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .teclado--botao {
@@ -39,4 +41,24 @@ body {
     margin: 10px;
     cursor: pointer;
     box-shadow: 2px 2px 0px #555;
+}
+
+.branco {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.corrige {
+    background-color: #f09046;
+    color: #000;
+    font-size: 15px
+}
+
+.confirma {
+    background-color: #4f8a10;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
 }
